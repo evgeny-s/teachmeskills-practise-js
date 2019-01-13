@@ -11,6 +11,6 @@ npm i -g dev-server
 dev-server
 ```
 - Open in browser
-- Change any test name in the `index.html` in order to check if it pass correctly or not.
+- Change any test name in the `index.html` in order to check if it passes correctly or not.
 
 ### Enjoy!
