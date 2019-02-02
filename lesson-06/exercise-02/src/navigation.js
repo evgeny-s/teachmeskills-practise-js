@@ -5,7 +5,7 @@ class Navigation {
 
   _renderBackButton(data, index, indexChangedHandler) {
     let backButton = document.createElement("button");
-    backButton.innerText = "Back";
+    backButton.innerText = "< Back";
     if (index === 0) {
       backButton.disabled = true;
     }
@@ -23,7 +23,7 @@ class Navigation {
 
   _renderNextButton(data, index, indexChangedHandler) {
     let nextButton = document.createElement("button");
-    nextButton.innerText = "Next";
+    nextButton.innerText = "Next >";
     if (index >= data.length - 1) {
       nextButton.disabled = true;
     }

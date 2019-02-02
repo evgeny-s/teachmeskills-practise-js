@@ -8,12 +8,8 @@ class AnswersStatus {
 
     data.forEach((item, itemIndex) => {
       const element = document.createElement("span");
-      element.style.border = '1px solid black';
-      element.style.width = '15px';
-      element.style.height = '15px';
-      element.style.display = 'inline-block';
       if (itemIndex === index) {
-        element.style.backgroundColor = 'black';
+        element.className = 'active';
       }
 
       this.container.appendChild(element);

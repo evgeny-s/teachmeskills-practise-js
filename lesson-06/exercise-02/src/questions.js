@@ -18,6 +18,7 @@ class Questions {
     let wrapperEl = document.createElement("div");
     let questionEl = document.createElement("div");
     questionEl.innerText = dataItem.question;
+    questionEl.id = "question-title";
 
     let answersWrapper = document.createElement("div");
     answersWrapper.id = "answers-wrapper";
@@ -30,8 +31,13 @@ class Questions {
 
       let answerEl = document.createElement("div");
       answerEl.innerText = answer.title;
-      answersWrapper.appendChild(answerControlEl);
-      answersWrapper.appendChild(answerEl);
+
+      let answerItemEl = document.createElement("div");
+      answerItemEl.id = "answer-item";
+      answerItemEl.appendChild(answerControlEl);
+      answerItemEl.appendChild(answerEl);
+
+      answersWrapper.appendChild(answerItemEl);
     });
 
     wrapperEl.appendChild(questionEl);

@@ -2,35 +2,7 @@ import navigation from "./navigation";
 import questions from "./questions";
 import answersStatus from "./answersStatus";
 
-const data = [{
-  question: "What technology is the most popular in 2019?",
-  multiple: false,
-  answers: [{
-    "title": "Javascript",
-    "id": 1,
-  }, {
-    "title": "C++",
-    "id": 2,
-  }, {
-    "title": "GoLang",
-    "id": 3,
-  }],
-  correctAnswers: [1]
-}, {
-  question: "What are backend technologies?",
-  multiple: true,
-  answers: [{
-    "title": "PHP",
-    "id": 1,
-  }, {
-    "title": "Javascript",
-    "id": 2,
-  }, {
-    "title": "GoLang",
-    "id": 3,
-  }],
-  correctAnswers: [2, 3]
-}];
+import data from "./data";
 
 class App {
   constructor() {

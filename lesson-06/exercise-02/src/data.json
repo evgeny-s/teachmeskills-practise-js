@@ -1,0 +1,226 @@
+[
+  {
+    "question": "What technology is the most popular in 2019?",
+    "multiple": false,
+    "answers": [
+      {
+        "title": "Javascript",
+        "id": 1
+      },
+      {
+        "title": "C++",
+        "id": 2
+      },
+      {
+        "title": "GoLang",
+        "id": 3
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "What are backend technologies?",
+    "multiple": true,
+    "answers": [
+      {
+        "title": "PHP",
+        "id": 1
+      },
+      {
+        "title": "Javascript",
+        "id": 2
+      },
+      {
+        "title": "GoLang",
+        "id": 3
+      }
+    ],
+    "correctAnswers": [
+      2,
+      3
+    ]
+  },
+  {
+    "question": "Who has invented Javascript?",
+    "multiple": false,
+    "answers": [
+      {
+        "title": "Dan Abramov",
+        "id": 1
+      },
+      {
+        "title": "Andrew Brin",
+        "id": 2
+      },
+      {
+        "title": "Brendan Eich",
+        "id": 3
+      }
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "question": "How many bits consists in 1 byte?",
+    "multiple": false,
+    "answers": [
+      {
+        "title": "8 bit",
+        "id": 1
+      },
+      {
+        "title": "16 bit",
+        "id": 2
+      },
+      {
+        "title": "32 bit",
+        "id": 3
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "How to get the last changes from remote server in Git?",
+    "multiple": false,
+    "answers": [
+      {
+        "title": "git push",
+        "id": 1
+      },
+      {
+        "title": "git merge",
+        "id": 2
+      },
+      {
+        "title": "git pull",
+        "id": 3
+      }
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "question": "Is array primitive data type in Javascript?",
+    "multiple": false,
+    "answers": [
+      {
+        "title": "Yes",
+        "id": 1
+      },
+      {
+        "title": "No",
+        "id": 2
+      },
+      {
+        "title": "I don't know",
+        "id": 3
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "What description should be used in order to make the property invisible inside for ... in loop?",
+    "multiple": false,
+    "answers": [
+      {
+        "title": "iterable",
+        "id": 1
+      },
+      {
+        "title": "enumerable",
+        "id": 2
+      },
+      {
+        "title": "writable",
+        "id": 3
+      }
+    ],
+    "correctAnswers": [
+      2
+    ]
+  },
+  {
+    "question": "How to stop recursion?",
+    "multiple": false,
+    "answers": [
+      {
+        "title": "Need to point base condition",
+        "id": 1
+      },
+      {
+        "title": "Need to specify finite amount of iterations",
+        "id": 2
+      },
+      {
+        "title": "Use return statement",
+        "id": 3
+      }
+    ],
+    "correctAnswers": [
+      1
+    ]
+  },
+  {
+    "question": "What async function usually return?",
+    "multiple": false,
+    "answers": [
+      {
+        "title": "array",
+        "id": 1
+      },
+      {
+        "title": "result in retutn statement",
+        "id": 2
+      },
+      {
+        "title": "Promise",
+        "id": 3
+      },
+      {
+        "title": "Undefined",
+        "id": 4
+      }
+    ],
+    "correctAnswers": [
+      3
+    ]
+  },
+  {
+    "question": "What types exists in Javascript?",
+    "multiple": true,
+    "answers": [
+      {
+        "title": "Float",
+        "id": 1
+      },
+      {
+        "title": "Double",
+        "id": 2
+      },
+      {
+        "title": "Number",
+        "id": 3
+      },
+      {
+        "title": "Uint32",
+        "id": 4
+      },
+      {
+        "title": "String",
+        "id": 5
+      }
+    ],
+    "correctAnswers": [
+      3,
+      5
+    ]
+  }
+]
