@@ -26,12 +26,15 @@ class App {
 
   _onSubmitHandler() {
     let score = calculateScore(data, this.userAnswers);
-    alert(`Your score is: ${score}`);
+    if (confirm(`Your score is: ${score}. Do you want to start from scratch?`)) {
+      window.location.reload();
+    }
   }
 
   _renderSubmitButton(data) {
     if (this.currentIndex === data.length - 1) {
       let submitButtonEl = document.createElement("button");
+      submitButtonEl.id = "submit-button";
       submitButtonEl.innerText = "Submit!";
       submitButtonEl.addEventListener('click', this._onSubmitHandler.bind(this));
 

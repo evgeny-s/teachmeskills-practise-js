@@ -25,7 +25,7 @@ class Navigation {
     let nextButton = document.createElement("button");
     nextButton.innerText = "Next >";
     if (index >= data.length - 1) {
-      nextButton.disabled = true;
+      return;
     }
     nextButton.addEventListener('click', () => {
       let nextIndex = index + 1;

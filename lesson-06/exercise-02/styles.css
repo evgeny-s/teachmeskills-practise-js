@@ -80,8 +80,13 @@ html, body {
   border-radius: 20px;
   min-width: 90px;
   font-size: 1.2em;
+  cursor: pointer;
 }
 
 #navigation button:disabled {
   background-color: #cb9bfe;
+}
+
+#submit-button {
+  background-color: #21d81a !important;
 }
