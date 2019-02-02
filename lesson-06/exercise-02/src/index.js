@@ -42,7 +42,7 @@ class App {
 
   _renderItems() {
     this.navigation.render(data, this.currentIndex, this.indexChanged.bind(this));
-    this.answersStatus.render(data, this.currentIndex);
+    this.answersStatus.render(data, this.currentIndex, this.indexChanged.bind(this));
     this.questions.render(data[this.currentIndex], this.onAnswerChange.bind(this));
     this._renderSubmitButton(data);
   }
