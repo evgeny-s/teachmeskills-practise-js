@@ -3,6 +3,7 @@ import questions from "./questions";
 import answersStatus from "./answersStatus";
 
 import data from "./data";
+import {calculateScore} from "./services/utils";
 
 class App {
   constructor() {
@@ -24,7 +25,8 @@ class App {
   }
 
   _onSubmitHandler() {
-    console.log("User's ansewers: ", this.userAnswers);
+    let score = calculateScore(data, this.userAnswers);
+    alert(`Your score is: ${score}`);
   }
 
   _renderSubmitButton(data) {
