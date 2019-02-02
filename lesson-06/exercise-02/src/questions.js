@@ -12,7 +12,7 @@ class Questions {
     onChangeCallback(answers);
   }
 
-  render(dataItem, multiple, onChangeCallback) {
+  render(dataItem, onChangeCallback) {
     this.container.innerHTML = null;
 
     let wrapperEl = document.createElement("div");
@@ -24,7 +24,7 @@ class Questions {
     answersWrapper.id = "answers-wrapper";
     dataItem.answers.forEach((answer) => {
       let answerControlEl = document.createElement("input");
-      answerControlEl.type = multiple ? "checkbox" : "radio";
+      answerControlEl.type = dataItem.multiple ? "checkbox" : "radio";
       answerControlEl.name = "options";
       answerControlEl.id = `answer-control-${answer.id}`;
       answerControlEl.addEventListener('change', this._onControlChangeHandler.bind(this, onChangeCallback));
