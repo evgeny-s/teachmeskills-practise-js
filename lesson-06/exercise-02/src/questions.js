@@ -12,7 +12,7 @@ class Questions {
     onChangeCallback(answers);
   }
 
-  render(dataItem, onChangeCallback) {
+  render(dataItem, userAnswer, onChangeCallback) {
     this.container.innerHTML = null;
 
     let wrapperEl = document.createElement("div");
@@ -27,6 +27,11 @@ class Questions {
       answerControlEl.type = dataItem.multiple ? "checkbox" : "radio";
       answerControlEl.name = "options";
       answerControlEl.id = `answer-control-${answer.id}`;
+
+      if (userAnswer && userAnswer[answer.id] !== undefined) {
+        answerControlEl.checked = userAnswer[answer.id];
+      }
+
       answerControlEl.addEventListener('change', this._onControlChangeHandler.bind(this, onChangeCallback));
 
       let answerEl = document.createElement("div");
