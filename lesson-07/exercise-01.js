@@ -13,4 +13,4 @@
 // - It should be single `div` element in markup like <div id="container"></div>. Do not create markup inside HTML file.
 // - Store configuration (labyrinth) files in the JSON files.
 // - After user completed he will see a message with a number of steps he did to go through the labyrinth.
-// - Example how it can look: https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2018/06/Screen-Shot-2018-06-13-at-8.11.20-PM.png
+// - Example how it can look like: https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2018/06/Screen-Shot-2018-06-13-at-8.11.20-PM.png
