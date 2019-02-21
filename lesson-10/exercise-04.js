@@ -9,7 +9,10 @@
 // Medium - 0 -> 100
 // Difficult - 0 -> 1000
 
-// https://user-images.githubusercontent.com/33935506/33770696-521ef0ec-dc37-11e7-8d48-8c1d55929c22.PNG
-// https://user-images.githubusercontent.com/33935506/33770697-5254cb86-dc37-11e7-8c36-de79804b7bfc.PNG
-// https://user-images.githubusercontent.com/33935506/33770698-52879020-dc37-11e7-8c4b-634a95a34079.PNG
+// https://user-images.githubusercontent.com/33935506/33792331-08cb733e-dca5-11e7-9c6d-84002eba6b6b.PNG
+// https://user-images.githubusercontent.com/33935506/33792332-0901984c-dca5-11e7-8c97-723756e40467.PNG
+// https://user-images.githubusercontent.com/33935506/33792333-0934eb70-dca5-11e7-9a1c-a36133646fb1.PNG
+// https://user-images.githubusercontent.com/33935506/33792335-0970e008-dca5-11e7-918f-5bb6c3414538.PNG
+// https://user-images.githubusercontent.com/33935506/33792336-09a7b236-dca5-11e7-89d7-50c4ccd1659c.PNG
+
 // Try to use as much separated components as possible
